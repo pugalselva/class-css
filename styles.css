@@ -1,0 +1,110 @@
+ul li a{
+    color: green;
+}
+li{
+    display: inline;
+    margin-right: 40px;
+    
+}
+.hid{
+    display:none ;
+    
+}
+.center{
+    text-align: center;
+}
+
+
+/* css position  */
+.header{
+    
+    
+    background-color: cadetblue;
+}
+.static{
+    position: static;
+   
+    border: 3px solid #47448d;
+}
+.relative{
+    position: relative;
+    border: 3px solid #47448d;
+ left: 20px;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 3px solid #47448d;
+    background: red;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.relatives{
+    position: relative;
+    border: 3px solid #47448d;
+    left: 40%;
+    width: 400px;
+    height: 400px;
+}
+.absolute{
+    position: absolute;
+    border: 3px solid #47448d;
+top: 80px;
+right: 0;
+}
+/* stop position */
+.sticky{
+    position: sticky;
+    top: 10px;
+    background-color: #0c534d;
+    border: 3px solid #47448d;
+
+}
+/* css float  */
+#float-example div{
+    width: 100px;
+    padding: 20px ;
+    text-align: center;
+    color: white;
+}
+.red{
+    float: left;
+    background: red;
+}
+.blue{
+    float: left;
+    background: blue;
+}
+.brow{
+    float: right;
+    background:brown;
+}
+.yellow{
+    float: right;
+background: yellow;
+}
+.green{
+    float: right;
+    background: green;
+}
+.sky{
+    float: left;
+    background: skyblue;
+}
+p{
+    clear: both;
+}
+
+.float{
+    background-color: gray;
+}
+
+.float img{
+    float: left;
+    padding: 10px;
+    margin-right: 40px;
+    background-color: rgb(203, 100, 100);
+}
+

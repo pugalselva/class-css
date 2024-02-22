@@ -1,0 +1,43 @@
+.opacity img{
+    width: 600px;
+    opacity: 1;
+
+}
+.opacity{
+    width: 600px;
+    background-color: black;
+}
+.opacity img:hover{
+    opacity: 0.5;
+
+}
+
+/* css form  */
+.forms{
+    padding: 20px;
+    background-color: #f0f8ff;
+
+}
+
+/* attrubuty */
+input[type="text"]{
+    width: 100%;
+    padding:12px 10px ;
+    margin: 15px 0;
+    border: 1px solid rgb(130, 119, 119);
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+button[type="submit"]{
+    width: 100%;
+    background-color: #1e9372;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    }
+    button[type="submit"]:hover{
+        background-color: blue;
+    }
